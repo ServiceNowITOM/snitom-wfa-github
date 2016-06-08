@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="GitHub Pulls" max_length="40" name="x_snc_itom_github_github_pulls" type="collection"/>
+</database>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="GitHub Comments" max_length="40" name="x_snc_itom_github_github_comments" type="collection"/>
+</database>
