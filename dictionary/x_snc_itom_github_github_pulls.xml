@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="GitHub Pulls" max_length="40" name="x_snc_itom_github_github_pulls" type="collection"/>
+    <element label="GitHub Pulls" max_length="40" name="x_snc_itom_github_github_pulls" type="collection">
+        <element label="additions" max_length="40" name="additions" type="integer"/>
+        <element label="Assignee login" max_length="40" name="assignee_login" type="string"/>
+        <element label="Base" max_length="32" name="base" reference="x_snc_itom_github_github_branches" type="reference"/>
+        <element label="body" max_length="2048" name="body" type="string"/>
+        <element label="Changed files" max_length="40" name="changed_files" type="integer"/>
+        <element label="Closed at" max_length="40" name="closed_at" type="glide_date_time"/>
+        <element label="comments" max_length="40" name="comments" type="integer"/>
+        <element label="commits" max_length="40" name="commits" type="integer"/>
+        <element label="Created at" max_length="40" name="created_at" type="glide_date_time"/>
+        <element label="deletions" max_length="40" name="deletions" type="integer"/>
+        <element label="Head" max_length="32" name="head" reference="x_snc_itom_github_github_branches" type="reference"/>
+        <element label="id" max_length="40" name="id" type="integer"/>
+        <element label="mergeable" max_length="40" name="mergeable" type="string"/>
+        <element label="merged" max_length="40" name="merged" type="string"/>
+        <element label="Mergedby login" max_length="40" name="mergedby_login" type="string"/>
+        <element label="Merged at" max_length="40" name="merged_at" type="glide_date_time"/>
+        <element label="milestone" max_length="32" name="milestone" reference="x_snc_itom_github_github_milestones" type="reference"/>
+        <element label="number" max_length="40" name="number" type="integer"/>
+        <element label="Repository" max_length="32" name="repository" reference="x_snc_itom_github_github_repositories" type="reference"/>
+        <element label="state" max_length="40" name="state" type="string"/>
+        <element label="title" max_length="40" name="title" type="string"/>
+        <element label="Updated at" max_length="40" name="updated_at" type="glide_date_time"/>
+        <element label="Url" max_length="1024" name="url" type="url"/>
+        <index name="index">
+            <element name="head"/>
+        </index>
+        <index name="index2">
+            <element name="milestone"/>
+        </index>
+        <index name="index3">
+            <element name="repository"/>
+        </index>
+        <index name="index4">
+            <element name="base"/>
+        </index>
+    </element>
 </database>

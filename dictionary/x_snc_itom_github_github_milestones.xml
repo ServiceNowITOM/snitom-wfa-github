@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="GitHub Milestones" max_length="40" name="x_snc_itom_github_github_milestones" type="collection"/>
+    <element label="GitHub Milestones" max_length="40" name="x_snc_itom_github_github_milestones" type="collection">
+        <element label="Closed_at" max_length="40" name="closed_at" type="glide_date_time"/>
+        <element label="Closed_Issues" max_length="40" name="closed_issues" type="integer"/>
+        <element label="Created_at" max_length="40" name="created_at" type="glide_date_time"/>
+        <element label="Description" max_length="20480" name="description" type="string"/>
+        <element label="Due_on" max_length="40" name="due_on" type="glide_date_time"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Open_Issues" max_length="40" name="open_issues" type="integer"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Title" max_length="100" name="title" type="string"/>
+        <element label="Updated_at" max_length="40" name="updated_at" type="glide_date_time"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
+    </element>
 </database>
