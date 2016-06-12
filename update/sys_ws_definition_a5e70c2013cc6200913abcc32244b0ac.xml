@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_snc_itom_github/github_managment_webhook</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl/>
+        <is_versioned>false</is_versioned>
+        <name>GitHub Managment WebHook</name>
+        <namespace>x_snc_itom_github</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>github_managment_webhook</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>shaun.millin</sys_created_by>
+        <sys_created_on>2016-06-12 23:43:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a5e70c2013cc6200913abcc32244b0ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GitHub Managment WebHook</sys_name>
+        <sys_package display_value="Github Management" source="x_snc_itom_github">1b332a2613efd200913abcc32244b00d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Github Management">1b332a2613efd200913abcc32244b00d</sys_scope>
+        <sys_update_name>sys_ws_definition_a5e70c2013cc6200913abcc32244b0ac</sys_update_name>
+        <sys_updated_by>shaun.millin</sys_updated_by>
+        <sys_updated_on>2016-06-12 23:43:32</sys_updated_on>
+    </sys_ws_definition>
+</record_update>
